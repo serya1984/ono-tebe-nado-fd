@@ -1,1 +1,0 @@
-https://github.com/serya1984/ono-tebe-nado-fd
