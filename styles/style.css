@@ -32,31 +32,13 @@
     height: 104px;
 }
 
-.header-list-contact {
-    display: flex;
-    justify-content: end;
-    max-width: 240px;
-    font-size: 18px;
-    font-weight: 400;
-}
-
 .header__address {
     max-width: 240px;
     justify-self: end;
     font-size: 18px;
     line-height: 24px;
     font-style: normal;
-}
-
-.header__address-link {
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    list-style: none;
-}
-
-.text__now-line{
-    text-decoration: none;
-    list-style: none;
+    text-underline-offset: 4px;
 }
 
 .cover {
@@ -64,6 +46,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    padding-top: 10px;
 }
 
 .overlay {
@@ -97,15 +80,15 @@
 
 
 
-.aligned-text {
+.cover__aligned-text {
     letter-spacing: 30px;
 }
 
-.aligned-text_center {
+.cover__aligned-text_center {
 text-align: center;
 }
 
-.aligned-text_right {
+.cover__aligned-text_right {
     text-align: end;
 }
 
@@ -288,24 +271,17 @@ text-align: center;
 .footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: start;
-    justify-content: space-between;
-    padding: 156px 48px 0px 50px;
-    gap: 139px;
+    padding: 158px 48px 0px 50px;
+    gap: 138px;
 }
 
 .footer__address {
-    display: flex;
-    justify-content: end;
-    min-width: 243px;
+    max-width: 242px;
     font-size: 18px;
-    font-weight: 400;
+    line-height: 24px;
     font-style: normal;
-    line-height: 24.3px;
-    
     text-underline-offset: 4px;
 }
-
 .footer__menu {
     justify-self: start;
     font-size: 18px;
