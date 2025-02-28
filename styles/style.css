@@ -280,17 +280,14 @@ text-align: center;
     padding-left: 45px;
 }
 
-.footer__menu-list {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    text-align: center;
-}
 .footer__menu-list-item {
     list-style: none;
+    text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
     text-decoration: none;
+
 }
 
 .footer__social-list-items {
